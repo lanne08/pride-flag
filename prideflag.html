@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pride Flag: An Overview</title>
+
+    <style>
+
+    header {
+        background: linear-gradient(to right, rgb(255, 175, 175),rgb(255, 216, 145),yellow,rgb(181, 255, 181),rgb(147, 147, 255),rgb(223, 178, 255),violet);
+        /* justify-content: center;
+        align-items: center; */
+        border: 1px solid black;}
+
+     .header1 {
+        display: block;
+        width: 100%;}
+     
+     .header2 {
+        display: block;
+        width: 100%;  }
+
+    h1 {
+         text-align: center;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;}
+
+     h2 {
+         text-align: center;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;}
+    
+    body {
+        background-color: #d9e4f5;
+         background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+        margin: 0;
+        padding: 0;}
+       
+    .flagbox {
+           display: flex;
+           /* justify-content: center;
+           align-content: center; */
+           margin-left: 30px;
+           margin-right: 15px;}
+
+    .container {
+           display: flex;
+           /* justify-content: center;
+           align-content: center; */}
+
+    .content1 {
+        margin-left: 15px;
+        margin-right: 30px;
+        margin-top: 0;
+        padding-top: 0;}
+
+    .stick {
+        height: 575px;
+        width: 10px;
+        background: black;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;}
+
+    .flag {
+        width: 550px;
+        height: 300px;
+        box-shadow: 0px 0px 90px 1px #989;
+        background-color: transparent;
+        position: relative;}
+
+    .pride1 {
+	height: 50px;
+	background-color: red}
+
+    .pride2 {
+	height: 50px;
+	background-color: orange}
+
+    .pride3 {
+	height: 50px;
+	background-color: yellow}
+
+    .pride4 {
+	height: 50px;
+	background-color: green}
+
+    .pride5 {
+	height: 50px;
+	background-color: blue}
+
+    .pride6 {
+	height: 50px;
+	background-color: purple}
+
+    .wave{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(
+		128deg, rgba(89,72,21,0) 39%,
+		rgba(250,245,245,0.8474025974025974)
+		46%, rgba(89,72,21,0) 53%);
+	animation-name: wavy;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;}
+
+    @keyframes wavy {
+	0%{
+        background-position:
+        -400px 0px, -400px 0px,
+        -400px 0px,-400px 0px;}
+	100%{
+        background-position: 800px 0px,
+        800px 0px, 800px 0px, 800px 0px;}
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Create the header for the page and CSS to create the rainbow gradient. -->
+        <header>
+            <div class="header1"><h1>The History Behind The Rainbow</h1></div>
+
+            <div class="header2"><h2>An Overview Of The Pride Flag</h2></div>
+        </header>
+        <br>
+
+        <!-- Create and name a primary div (class named Container) to contain the overall contents of the page. Use flexbox to change the default view where divs/blocks stack on top of each other.    -->
+
+<div class="container">
+        
+        <!-- Create and name a second primary div (class named Flagbox) to contain the divs/classes that create a flag. 
+            
+            Includes margins to help align the divs within Flagbox, which uses flexbox to align the Stick and Flag divs/classes. 
+        
+            Stick also includes border radius adjustments to give the stick edges their curved appearance. 
+        
+            In addition to indivudal flag stripe classes, this art contains animation that was found during research for this project. See ReadMe for more info.-->
+
+        <div class="flagbox">
+            <div class="stick"></div>
+            <div class="flag">
+                <div class="wave"></div>
+                <div class="pride1"></div>
+                <div class="pride2"></div>
+                <div class="pride3"></div>
+                <div class="pride4"></div>
+                <div class="pride5"></div>
+                <div class="pride6"></div>
+            </div>
+        </div>
+
+        <!-- Create a div to contain the text on the page. -->
+
+        <section class="content1">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">The rainbow pride flag has come to represent the LGBTQIA+ community worldwide. Since its creation, the different colors within the flag were meant to represent togetherness while recognizing the significance bright colors played in LGBTQIA+ expression. It also represents the diversity of the LGBTQIA+ community, whose members represent all races, ages, and genders.
+                <br><br>
+                The original pride flag created by San Francisco-based queer artist Gilbert Baker, who was petitioned by friends and activists to create a recognizable emblem of empowerment for the queer community. Baker is quoted as looking to the American flag for inspiration: 
+                <br><br>
+                <em>“I thought of the American flag with its thirteen stripes and thirteen stars, the colonies breaking away from England to form the United States,” he wrote. “I thought of the vertical red, white, and blue tricolor from the French Revolution and how both flags owed their beginnings to a riot, a rebellion, or revolution. I thought a gay nation should have a flag too, to proclaim its own idea of power.”</em>
+                <br><br>
+                The result of Baker's work was an eight-striped rainbow pride flag that first flew at the San Francisco Gay Freedom Day Parade in June 1978. Over the next two years, the design was altered to its current, six-stripe version; at a time when these flags were made by hand, removing the hot pink stripe and turquoise stripe made it easier for the community to create more flags.
+                <br><br>
+                While the rainbow flag as a whole represents togetherness, each individual color of the flag has a meaning as well!
+                <ul type="square" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                <li><strike>pink represented sex</strike></li>
+                <li>red represents life</li>
+                <li>orange represents healing</li>
+                <li>yellow represents sunlight</li>
+                <li>green represents nature</li>
+                <li><strike>turquoise represented magic and art</strike></li>
+                <li>indigo represents harmony/serenity</li>
+                <li>violet represents spirit</li>
+            </ul>
+        </p>
+                    </section>
+
+    </div>
+</body>
+
+</html>
