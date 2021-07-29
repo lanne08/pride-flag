@@ -12,7 +12,7 @@ Originally I intended to use JavaScript to reveal the individual Pride flag stri
 
 Additional To Do item's include:
 
--Polishing the newly added homepage
+-Polishing the newly added homepage<br>
 -Creating a new page focused on the individual letters and meanings of the LGBTQIA+ acronym
 
 ![Webpage Screenshot](https://user-images.githubusercontent.com/78116772/127544591-e13a2e25-f52b-490c-bb85-b302f2f61d46.png)
