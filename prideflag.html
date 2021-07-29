@@ -15,41 +15,47 @@
         align-items: center; */
         border: 1px solid black;}
 
-     .header1 {
+    .header1 {
         display: block;
         width: 100%;}
-     
-     .header2 {
+    
+    .header2 {
         display: block;
         width: 100%;  }
 
     h1 {
-         text-align: center;
+        text-align: center;
         position: relative;
         font-family: Arial, Helvetica, sans-serif;}
 
-     h2 {
-         text-align: center;
+    /* h2 {
+        text-align: center;
         position: relative;
-        font-family: Arial, Helvetica, sans-serif;}
+        font-family: Arial, Helvetica, sans-serif;} */
     
     body {
         background-color: #d9e4f5;
-         background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+        background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
         margin: 0;
         padding: 0;}
-       
+    
     .flagbox {
-           display: flex;
-           /* justify-content: center;
+        display: flex;
+        /* justify-content: center;
            align-content: center; */
-           margin-left: 30px;
-           margin-right: 15px;}
+        margin-left: 30px;
+        margin-right: 15px;}
 
     .container {
-           display: flex;
-           /* justify-content: center;
+        display: flex;
+        /* justify-content: center;
            align-content: center; */}
+
+    .navigation {
+        margin-left: 15px;
+        margin-right: 30px;
+        margin-top: 0;
+        padding-top: 0;}
 
     .content1 {
         margin-left: 15px;
@@ -126,12 +132,23 @@
 
     <!-- Create the header for the page and CSS to create the rainbow gradient. -->
         <header>
-            <div class="header1"><h1>The History Behind The Rainbow</h1></div>
-
-            <div class="header2"><h2>An Overview Of The Pride Flag</h2></div>
+            <div class="header1"><h1>The History Behind The Rainbow Flag</h1></div>
         </header>
         <br>
 
+    <!-- Add a basic HTML-only navigation list. -->
+
+        <section class="navigation">
+            <p
+                style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prideflag.html">About The Pride Flag</a></li>
+                <li>Coming Soon: About The Acronym(s)</li>
+            </ul>
+            </p>
+        </section>
+<br>
         <!-- Create and name a primary div (class named Container) to contain the overall contents of the page. Use flexbox to change the default view where divs/blocks stack on top of each other.    -->
 
 <div class="container">
@@ -143,7 +160,7 @@
             Stick also includes border radius adjustments to give the stick edges their curved appearance. 
         
             In addition to indivudal flag stripe classes, this art contains animation that was found during research for this project. See ReadMe for more info.-->
-
+        
         <div class="flagbox">
             <div class="stick"></div>
             <div class="flag">
