@@ -1,6 +1,6 @@
 ## About
 
-This is an ongoing project that I am using to teach myself more about HTML, CSS, and JavaScript. I originally began working on this page in June 2021, which is how I selected the Pride flag as the focus of my project.
+This is an ongoing project that I am using to teach myself more about HTML, CSS, and JavaScript. I originally began working on these webpages in June 2021, which is how I selected the Pride flag and LGBTQIA+ community as the focus of my project.
 
 ## Resources
 
