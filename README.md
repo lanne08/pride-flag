@@ -13,4 +13,7 @@ In addition to the comments in my project, I wanted to highlight the following a
 Originally I intended to use JavaScript to reveal the listed information via hover events. I plan on coming back to this over time to make my original vision reality!
 
 I am also currently in the process of deciding whether to expand on this page with the addition of more flags.
+<<<<<<< HEAD
 {"mode":"full","isActive":false}
+=======
+>>>>>>> 505b645964369981c4ae6a496b4c9c33b4a85f69
