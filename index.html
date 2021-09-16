@@ -16,6 +16,7 @@
         align-items: center; */
         border: 1px solid black;
         padding: 1px 1px 1px 1px;
+        width: 100vw;
     }
 
     .header1 {
@@ -67,6 +68,16 @@
         align-items: center;
     }
 
+    .nav {
+        display: inline-block;
+        align-items: center;
+        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        margin: 20px 10px;
+        font-size: 1.30rem;
+        font-weight: bold;
+        padding: 15px;
+        border-style: outset;
+    }
     li {
         display: inline-block;
         align-items: center;
@@ -84,6 +95,9 @@
            align-content: center; */
         margin-left: 30px;
         margin-right: 15px;
+        /* max-width: 100%;
+        height: auto;
+        align-items: stretch; */
     }
 </style>
 
@@ -104,12 +118,12 @@
         <p
             style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>Coming Soon: Terminology</li>
-            <li>Coming Soon: About The Acronym(s)</li>
-            <li><a href="prideflag.html">The Pride Flag's History & Meaning</a></li>
-            <li><a href="inclusive.html">The Evolution of the Flag</a></li>
-            <li>Coming Soon: Identities & Orientations</li>
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="glossary.html">Terminology</a></li>
+            <li class="nav">Coming Soon: About The Acronym(s)</li>
+            <li class="nav"><a href="prideflag.html">The Pride Flag's History & Meaning</a></li>
+            <li class="nav"><a href="inclusive.html">The Evolution of the Flag</a></li>
+            <li class="nav">Coming Soon: Identities & Orientations</li>
         </ul>
         </p>
     </section>
