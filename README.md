@@ -15,6 +15,7 @@ Additional To Do item's include:
 -Polishing the newly added homepage<br>
 -Updating the navgiation bar (which is currently an HTML-only menu)<br>
 -Creating a new page focused on the individual letters and meanings of the LGBTQIA+ acronym
+-Moving the CSS into an external Style Sheet, instead of using internal CSS formatting
 
 ![Webpage Screenshot](https://user-images.githubusercontent.com/78116772/127544591-e13a2e25-f52b-490c-bb85-b302f2f61d46.png)
 
