@@ -8,7 +8,7 @@ In addition to the comments in my project, I wanted to highlight the following a
 
 ## To Do
 
-Originally I intended to use JavaScript to reveal the individual Pride flag stripe colors and meanings via hover events. I plan on coming back to this over time to make my original vision reality!
+When this project began, it was a single page about the rainbow flag. Originally I intended to use JavaScript to reveal the individual Pride flag stripe colors and meanings via hover events. I plan on coming back to this over time to make my original vision reality!
 
 Additional To Do item's include:
 
